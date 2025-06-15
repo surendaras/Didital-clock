@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+    color: #fff;
+}
+.center{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#clock{
+    font-size: 40px;
+    background-color: rgb(104, 101, 95);
+    padding: 20px 50px;
+    border-radius: 20px;
+} 
+#clock:hover{
+    border: 2px solid black;
+}
+span{
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span:hover{
+    font-size: 40px;
+    
+}
